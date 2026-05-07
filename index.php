@@ -1,10 +1,3 @@
-<?php
-/*require_once 'config.php';
-$redirectUrl = '';
-if (isLoggedIn()) {
-    $redirectUrl = in_array($_SESSION['user_role'], ['admin','super_admin']) ? 'admin.php' : 'app.php';
-}*/
-?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -89,10 +82,6 @@ if (isLoggedIn()) {
 </div>
   
 <script src="js/index.js"></script>
-
-<?php /*if ($redirectUrl): ?>
-window.location.href = '<?= $redirectUrl ?>';
-<?php endif; */ ?>
 
 </body>
 </html>
