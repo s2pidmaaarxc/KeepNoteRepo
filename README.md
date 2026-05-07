@@ -32,3 +32,5 @@ A Google Keep-inspired notes app with Notes, To-Do Lists, Archive, Trash, and Ro
 | View system stats             | ❌   | ✅    | ✅          |
 
 *Admins can only deactivate regular users, not other admins.
+
+---
