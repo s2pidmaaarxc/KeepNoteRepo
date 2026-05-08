@@ -17,7 +17,7 @@ A Google Keep-inspired notes app with Notes, To-Do Lists, Archive, Trash, and Ro
 
 ---
 
-## 
+## 📁 File Structure
 
 ---
 
