@@ -17,7 +17,22 @@ A Google Keep-inspired notes app with Notes, To-Do Lists, Archive, Trash, and Ro
 
 ---
 
+## 
+
+---
+
+keepnote/
+├── index.php        ← Login & Register page
+├── css/        ← Login & Register page
+      └──  index.css
+└──  js/
+      └── index.js
+
+---
+
 ## 👤 Role Capabilities
+
+---
 
 | Feature                        | User | Admin | Super Admin |
 |-------------------------------|------|-------|-------------|
