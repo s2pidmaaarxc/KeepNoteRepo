@@ -21,12 +21,14 @@ A Google Keep-inspired notes app with Notes, To-Do Lists, Archive, Trash, and Ro
 
 ---
 
+```
 keepnote/
-├── index.php        ← Login & Register page
-├── css/        ← Login & Register page
+├── index.php        
+├── css/      
       └──  index.css
 └──  js/
       └── index.js
+```
 
 ---
 
