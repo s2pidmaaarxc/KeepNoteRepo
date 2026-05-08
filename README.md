@@ -19,8 +19,6 @@ A Google Keep-inspired notes app with Notes, To-Do Lists, Archive, Trash, and Ro
 
 ## 📁 File Structure
 
----
-
 ```
 keepnote/
 ├── index.php        
@@ -30,11 +28,11 @@ keepnote/
       └── index.js
 ```
 
+* Not finish, will updated later... 
+
 ---
 
 ## 👤 Role Capabilities
-
----
 
 | Feature                        | User | Admin | Super Admin |
 |-------------------------------|------|-------|-------------|
