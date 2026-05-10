@@ -45,10 +45,11 @@ keepnote/
 2. Create a new database named `keepnote_db`
 3. Import `database.sql` into it
 
-* To login in **Super Admin**
-  `Username: superadmin`
-  `Password: superadmin123`   
-
+* To login in **Super Admin**:
+```
+  Username: superadmin
+  Password: superadmin123   
+```
 ---
 ## 👤 Role Capabilities
 
