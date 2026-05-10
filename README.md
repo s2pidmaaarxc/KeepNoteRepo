@@ -29,7 +29,7 @@ keepnote/
 ```
 
 * Not finish, will updated later... 
-* Still refactoring things to make it work, don't worry guys!
+* Still refactoring things to make it ready, don't worry guys!
 
 ---
 
