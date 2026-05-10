@@ -33,6 +33,23 @@ keepnote/
 
 ---
 
+## ⚙️ Setup Steps
+
+### 1. Requirements
+- PHP 5.2.9+ with PDO extension
+- MySQL 5.0.51a+ or MariaDB
+- A local server like XAMPP, WAMP, or Laragon
+
+### 2. Create the Database
+1. Open **phpMyAdmin** (or MySQL CLI)
+2. Create a new database named `keepnote_db`
+3. Import `database.sql` into it
+
+* To login in **Super Admin**
+  `Username: superadmin`
+  `Password: superadmin123`   
+
+---
 ## 👤 Role Capabilities
 
 | Feature                        | User | Admin | Super Admin |
