@@ -45,6 +45,15 @@ keepnote/
 2. Create a new database named `keepnote_db`
 3. Import `database.sql` into it
 
+### 3. How to run on pc/laptop?
+1. Put the extracted file on a folder
+2. Place the folder on `xampp/htdocs`
+3. On your browser type:
+   ```
+      ex.
+         localhost/keepnote
+               * keepnote is the name of the folder where I placed the files.
+   ```
 * To login **Super Admin**:
 ```
   Username: superadmin
