@@ -28,9 +28,6 @@ keepnote/
       └── index.js
 ```
 
-* Not finish, will updated later... 
-* Still refactoring things to make it ready, don't worry guys!
-
 ---
 
 ## ⚙️ Setup Steps
