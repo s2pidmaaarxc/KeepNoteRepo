@@ -61,12 +61,12 @@ To change this, you must first create another file `hash.php` to generate a hash
 ```php
 echo password_hash('yourNewPassword', PASSWORD_BCRYPT);
 //       ex. echo password_hash('superadmin123', PASSWORD_BCRYPT);
-//       - if you go to **localhost/folderWhereYouStoredTheFile/hash.php**
+//       - if you go to 'localhost/folderWhereYouStoredTheFile/hash.php'
 
 //       then, this is what will it show you:
 
-//       **$2y$10$1Gb1qpdm7BaihI8TWgW5AOWh0r9uTdC6wH/uD8cB9eW.sVQwpf.N6**
-//       - hash of **superadmin123**
+//       $2y$10$1Gb1qpdm7BaihI8TWgW5AOWh0r9uTdC6wH/uD8cB9eW.sVQwpf.N6
+//       - hash of 'superadmin123'
 ```
 After you get your new hash password, update it on your SQL Terminal
 ```sql
