@@ -24,10 +24,10 @@ keepnote/
 ├── index.html          ← Login/Register landing page
 ├── app.php             ← Notes app (authenticated users)
 ├── admin.php           ← Admin panel (admin/super_admin only)
-├── auth.php            ← Auth API (login, register, logout)
+├── auth.php            ← Authentication API (login, register, logout)
 ├── notes.php           ← Notes CRUD API
 ├── admin_api.php       ← Admin management API
-├── config.php          ← DB config, helpers, session setup
+├── config.php          ← DB configuration, helpers, session setup
 ├── database/
 │   └── database.sql    ← DB schema + default super admin seed
 ├── css/
