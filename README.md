@@ -21,12 +21,25 @@ A Google Keep-inspired notes app with Notes, To-Do Lists, Archive, Trash, and Ro
 
 ```
 keepnote/
-├── index.php        
-├── css/      
-      └──  index.css
-└──  js/
-      └── index.js
+├── index.html          ← Login/Register landing page
+├── app.php             ← Notes app (authenticated users)
+├── admin.php           ← Admin panel (admin/super_admin only)
+├── auth.php            ← Auth API (login, register, logout)
+├── notes.php           ← Notes CRUD API
+├── admin_api.php       ← Admin management API
+├── config.php          ← DB config, helpers, session setup
+├── database/
+│   └── database.sql    ← DB schema + default super admin seed
+├── css/
+│   ├── index.css       ← Auth page styles
+│   ├── app.css         ← Notes app styles
+│   └── admin.css       ← Admin panel styles
+└── js/
+    ├── index.js        ← Auth page logic
+    ├── app.js          ← Notes app logic
+    └── admin.js        ← Admin panel logic
 ```
+- Will upload the files, after finalization...
 
 ---
 
