@@ -39,7 +39,6 @@ keepnote/
     ├── app.js          ← Notes app logic
     └── admin.js        ← Admin panel logic
 ```
-- Will upload the files, after finalization...
 
 ---
 
