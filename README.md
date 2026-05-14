@@ -46,8 +46,8 @@ keepnote/
 ## ⚙️ Setup Steps
 
 ### 1. Requirements
-- PHP 5.2.9+ with PDO extension
-- MySQL 5.0.51a+ or MariaDB
+- PHP 7.4+ with PDO extension
+- MySQL 5.7+ or MariaDB
 - A local server like XAMPP, WAMP, or Laragon
 
 ### 2. Create the Database
