@@ -83,6 +83,7 @@ After you get your new hash password, update it on your SQL Terminal
 UPDATE users SET password = 'your_bcrypt_hash_here' WHERE username = 'superadmin';
 --- ex. UPDATE users SET password = '$2y$10$1Gb1qpdm7BaihI8TWgW5AOWh0r9uTdC6wH/uD8cB9eW.sVQwpf.N6'
 ---     WHERE username = 'superadmin';
+---     - the password of 'superadmin' changed to 'superadmin123'
 ```
 ---
 ## 👤 Role Capabilities
