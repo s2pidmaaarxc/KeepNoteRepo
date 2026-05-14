@@ -64,7 +64,7 @@ keepnote/
          localhost/keepnote
                * keepnote is the name of the folder where I placed the files.
    ```
-### To login **Super Admin**:
+### - To login **Super Admin**:
 
 Super admin is seeded with a hash password: `b3124a3814772f36445c6faa5b2ec4e71a90ef44` == `hello`.  
 To change this, you must first create another file `hash.php` to generate a hash in PHP:
