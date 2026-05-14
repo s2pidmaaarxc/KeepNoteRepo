@@ -40,6 +40,7 @@ keepnote/
     └── admin.js        ← Admin panel logic
 ```
 
+
 ---
 
 ## ⚙️ Setup Steps
