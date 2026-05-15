@@ -74,7 +74,7 @@ CREATE TABLE audit_logs (
 INSERT INTO users (username, email, password, role, created_at) VALUES (
     'superadmin',
     'superadmin@keepnote.com',
-    'b3124a3814772f36445c6faa5b2ec4e71a90ef44',
+    '$2y$10$1Gb1qpdm7BaihI8TWgW5AOWh0r9uTdC6wH/uD8cB9eW.sVQwpf.N6',
     'super_admin',
     NOW()
 );
