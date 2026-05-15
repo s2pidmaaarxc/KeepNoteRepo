@@ -70,7 +70,7 @@ CREATE TABLE audit_logs (
 );
 
 --Default Super Admin Account
---Password: superadmin123 (change this immediately after setup!)
+--Password: superadmin123
 INSERT INTO users (username, email, password, role, created_at) VALUES (
     'superadmin',
     'superadmin@keepnote.com',
