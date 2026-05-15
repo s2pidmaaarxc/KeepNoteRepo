@@ -66,8 +66,8 @@ keepnote/
    ```
 ### - To login **Super Admin**:
 
-Super admin is seeded with a hash password: `b3124a3814772f36445c6faa5b2ec4e71a90ef44` == `hello`.  
-To change this, you must first create another file `hash.php` to generate a hash in PHP:
+Super admin is seeded with a hash password: `$2y$10$1Gb1qpdm7BaihI8TWgW5AOWh0r9uTdC6wH/uD8cB9eW.sVQwpf.N6` == `superadmin123`.  
+if you want to change this, you must first create another file `hash.php` to generate a hash in PHP:
 ```php
 echo password_hash('yourNewPassword', PASSWORD_BCRYPT);
 //       ex. echo password_hash('superadmin123', PASSWORD_BCRYPT);
