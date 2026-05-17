@@ -73,7 +73,7 @@ switch ($action) {
             if (!$note || ($note['user_id'] != $user['id'] && !$isAdmin))
                 jsonResponse(false, 'Access denied.');
 
-            $stmt = $db->prepare("UPDATE notes SET title = ?, content = ?, color = ? WHERE id = ?");
+            $stmt = $db -> prepare("UPDATE notes SET title = ?, content = ?, color = ? WHERE id = ?");
             $stmt -> execute([$title, $content, $color, $id]);
             jsonResponse(true, 'Note updated.', ['id' => $id]);
         } else {
@@ -131,7 +131,7 @@ switch ($action) {
             jsonResponse(false, 'Access denied.');
 
         $db -> prepare("UPDATE todo_items SET is_checked = 1 - is_checked WHERE id = ?") 
-    -> execute([$itemId]);
+        -> execute([$itemId]);
         jsonResponse(true, 'Item toggled.');
 
     // PIN / UNPIN 
@@ -163,7 +163,8 @@ switch ($action) {
         if (!$row || ($row['user_id'] != $user['id'] && !$isAdmin))
             jsonResponse(false, 'Access denied.');
 
-        $db -> prepare("UPDATE $table SET is_archived = ?, is_pinned = 0 WHERE id=?") -> execute([$val, $itemId]);
+        $db -> prepare("UPDATE $table SET is_archived = ?, is_pinned = 0 WHERE id= ?")
+        -> execute([$val, $itemId]);
         jsonResponse(true, $val ? 'Archived.' : 'Restored.');
 
     // SOFT DELETE (move to trash)
