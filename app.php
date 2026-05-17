@@ -2,11 +2,6 @@
 require_once 'config.php';
 requireLogin();
 $user = currentUser();
-// Redirect admins to admin panel
-#if (in_array($user['role'], array('admin', 'super_admin'))) {
-#    header('Location: admin.php'); 
-#    exit;
-#}
 ?>
 <!DOCTYPE html>
 <html lang="en">
